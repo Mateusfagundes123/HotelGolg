@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}.partedahome {
+  width: 100%;
+  height: 80px;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: #000000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 25px;
+  color: #fff;
+  margin-left: -40px;
+  font-weight: 90;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  background: #ffffff;
+}
+
+nav .menu-btn i {
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 25px;
+}
+
+.BotaoAnimais:hover, .BotaoSobre:hover, .BotaoHome:hover {
+  background-color: #ffffff;
+  color: #000;
+  transition: 1.0s;
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+.linhaBranca{
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 999;
+  position: fixed;
+}
+.ImagensCarrousel{
+  width: 100%;
+  height: 750px;
+}
+.ImagensCarrousel img{
+  width: 100%;
+  height: 750px;
+}
+/*____________*/
+.ofertasTitulo{
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 150px;
+  padding-left: 50px;
+  padding-top: 5px;
+  
+}
+.ParteBranca{
+  width: 92%;
+  height: 80%;
+  background-color: #f2f2f2;
+  border-radius: 50px;
+}
+.ParteBranca img{
+  width: 60%;
+  height: 50%;
+  object-fit: cover;
+}
+.PartePreco{
+  width: 50%;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+.PartePreco button{
+  width: 90%;
+  height: 50%;
+}
+.precodiaria{
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+}
+.diaria{
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+}
+.ParteOfertas{
+  display: flex;
+  background-color: #000;
+}
+.OfertasdaSemana{
+  width: 100%;
+  height: 450px;
+}
+.parte1ofertas{
+  width: 33.3%;
+  height: 450px;
+  justify-content: center;
+  display: flex;
+}
+.parte2ofertas{
+  width: 33.4%;
+  height: 450px;
+  justify-content: center;
+  display: flex;
+}
+.parte3ofertas{
+  width: 33.3%;
+  height: 450px;
+  justify-content: center;
+  display: flex;
+}
+.TituloCaixa{
+  color: #000;
+  font-size: 22px;
+  padding-left: 8%;
+  margin-top: 4px;
+}
+.ParteBranca img{
+  margin-left: 8%;
+}
+.ParteInterna{
+  width: 100%;
+  display: flex;
+}
+.ParteEscrita{
+  width: 50%;
+}
+.ParteEscrita ul{
+  margin-left: 12%;
+  margin-top: -4px;
+  padding-top: 14px;
+  font-size: 18px;
+}
+
+.linhaPreta{
+  width: 100%;
+  height: 15px;
+  background-color: #000;
+}
+/*)))))))))))))))))))))*/
+.cafemanha{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.itenscafe{
+  font-size: 20px;
+  margin-left: 50px;
+}
+.cafeimg{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+.cafeimg img{
+  width: 40%;
+  height: 70%;
+  object-fit: cover;
+  margin-left: 40px;
+}
+.cafetexto{
+    width: 35%;
+    height: 400px;
+    display: flex;
+    background-color: #ffffff;
+}
+.cafetexto ul li{
+  font-size: 20px;
+  margin-left: 45px;
+}
+.partetitlediv{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.textocafe{
+    font-size: 30px;
+    display: block;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+.titlecafe{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+.valor{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.SimulaReserva{
+  padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+  H1{
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .aaa{
+    width: 400px;
+    height: 40px;
+    background-color: #ffff;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 5px;
+    padding-left: 15px;
+  }
+  label{
+    display: flex;
+    padding-right: 30px;
+    margin-left: 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 15px;
+  }
+.colorblack, .colorblackbutton{
+  transition: background-color 0.3s;
+}
+.colorblack:hover{
+  background-color: rgb(196, 197, 195);
+}
+.colorblackbutton:hover{
+  background-color: #63724F;
+}
+.calcularvalor{
+  width: 150px;
+  height: 50px;
+  background-color: #96ad79;
+  margin-left: 100px;
+}
+.Limparformulario{
+  width: 150px;
+  height: 50px;
+  background-color: #96ad79;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.buttondecalculos{
+  width: 100%;
+  height: 100px;
+}
+.valordasreservas{
+  width: 350px;
+  height: 150px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+button{
+  border-radius: 10px;
+}
+/*______________*/
+.rodape{
+    width: 100%;
+    background-color: #000000   ;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.parteMapa{
+  width: 100%;
+  height: 440px;
+  display: flex;
+}
+.partemapa1{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.partemapa1 iframe{
+  width: 80%;
+  height: 380px;
+}
+.partemapa2{
+  width: 50%;
+  padding-top: 50px;
+}
+.partemapa2 span{
+  font-size: 40px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+.partemapa2 p{
+  font-size: 20px;
+  display: block;
+  margin-left: 50px;
+}
+
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    
+  nav {
+   
+    height: 80px;
+    align-items: center;
+  }
+  nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  nav ul.active {
+      display: flex;
+  }
+
+  nav .menu-btn i {
+      display: block;
+  }
+/* -------------------------- */
+  .ImagensCarrousel{
+    width: 100%;
+    height: 400px;
+  }
+  .ImagensCarrousel img{
+    width: 100%;
+    height: 400px;
+    }
+  /* ___________________ */
+  .OfertasdaSemana{
+    width: 100%;
+    height: 1200px;
+  }
+  .ParteOfertas{
+    display: block;
+    background-color: #000;
+  }
+  .parte1ofertas{
+    width: 100%;
+    height: 420px;
+  }
+  .parte2ofertas{
+    width: 100%;
+    height: 420px;
+    margin-top: -50px;
+  }
+  .parte3ofertas{
+    width: 100%;
+    height: 420px;
+    margin-top: -50px;
+  }
+  
+/*--------------------- */
+
+.cafemanha{
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.cafeimg{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+.cafeimg img{
+width: 40%;
+height: 70%;
+object-fit: cover;
+margin-left: 40px;
+}
+.cafetexto{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-color: #ffffff;
+}
+/* _________________________ */
+
+.aaa{
+  width: 350px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.calcularvalor{
+  width: 150px;
+  height: 50px;
+  background-color: #96ad79;
+  margin-left: 40px;
+}
+.Limparformulario{
+  width: 150px;
+  height: 50px;
+  background-color: #96ad79;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* ___________________________ */
+.parteMapa{
+  height: 520px;
+  display: block;
+}
+.partemapa1{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.partemapa1 iframe{
+  width: 80%;
+  height: 250px;
+  margin-top: 20px;
+}
+.partemapa2{
+  width: 100%;
+  padding-top: 20px;
+}
+.partemapa2 span{
+  font-size: 30px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+}
